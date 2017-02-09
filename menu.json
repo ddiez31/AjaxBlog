@@ -1,0 +1,12 @@
+{
+    "blog": "Blog Simplon Occitanie",
+    "menu": [{
+            "title": "Passer de jQuery à Vanilla JS",
+            "href": "http://blog.occ.simplon.co/vanilla/"
+        },
+        {
+            "title": "Ma première Progressive Web App",
+            "href": "http://blog.occ.simplon.co/pwa/"
+        }
+    ]
+}
