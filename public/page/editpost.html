@@ -18,14 +18,16 @@
     <h2>Editer posts</h2>
     <hr>
     <div id="edit"></div>
-    <div>
-        <input type="text" class="inptitle" placeholder="Titre message" autofocus />
-    </div>
-    <br>
-    <div>
-        <textarea type="text" class="inpmsg" placeholder="Votre message"></textarea>
-        <button type="submit" class="send">Envoyer</button>
-    </div>
+    <form action="post" type="submit">
+        <div>
+            <input type="text" class="inptitle" placeholder="Titre message" autofocus />
+        </div>
+        <br>
+        <div>
+            <textarea type="text" class="inpmsg" placeholder="Votre message"></textarea>
+            <button type="submit" class="send">Envoyer</button>
+        </div>
+    </form>
 
 </body>
 <script src="/jquery/dist/jquery.js"></script>
