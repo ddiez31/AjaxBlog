@@ -19,6 +19,7 @@
   "dependencies": {
     "express": "^4.14.1",
     "jquery": "^3.1.1",
+    "nodemon": "^1.11.0",
     "semantic-ui-css": "^2.2.4",
     "showdown": "^1.4.3"
   }

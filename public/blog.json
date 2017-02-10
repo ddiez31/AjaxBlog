@@ -1,0 +1,14 @@
+{
+    "titre": "Blog Perso",
+    "posts": [{
+            "id": "0",
+            "title": "Bienvenue",
+            "msg": "On est sur le blog perso!"
+        },
+        {
+            "id": "1",
+            "title": "Pas évident",
+            "msg": "Le travail du blog n'est pas simple."
+        }
+    ]
+}

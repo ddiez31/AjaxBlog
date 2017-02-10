@@ -1,0 +1,39 @@
+#app {
+    background-color: lightsalmon;
+    color: firebrick;
+}
+
+.posts {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 50px;
+    display: inline-flex;
+}
+
+#postperso {
+    background-color: cornflowerblue;
+    color: darkred;
+}
+
+.postperso {
+    color: antiquewhite;
+}
+
+h3 {
+    color: brown;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+input {
+    min-height: 30px;
+    min-width: 200px;
+}
+
+textarea {
+    min-height: 200px;
+    min-width: 500px;
+}

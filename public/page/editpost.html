@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Markdown Blog</title>
+    <title>Editer posts</title>
     <link rel="stylesheet" href="/semantic-ui-css/semantic.css">
     <link rel="stylesheet" href="/css/style.css">
 </head>
@@ -13,15 +13,20 @@
         <a href="/">Accueil</a><a href="/editpost">Editer posts</a><a href="/newpost">Créer posts</a>
     </header>
     <hr>
-    <!-- Your code starts here ! -->
     <div id="app"></div>
     <hr>
-    <div id="postperso"></div>
+    <h2>Editer posts</h2>
     <hr>
-    <div id="md"></div>
+    <div id="edit"></div>
+    <div>
+        <input type="text" class="inptitle" placeholder="Titre message" autofocus />
+    </div>
+    <br>
+    <div>
+        <textarea type="text" class="inpmsg" placeholder="Votre message"></textarea>
+        <button type="submit" class="send">Envoyer</button>
+    </div>
 
-
-    <!-- fin de votre html -->
 </body>
 <script src="/jquery/dist/jquery.js"></script>
 <script src="/showdown/dist/showdown.js"></script>
